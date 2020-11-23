@@ -1,0 +1,71 @@
+`timescale 1ns/1ps
+
+module register_file(
+	readRegister1Adress,
+	readRegister2Adress,
+	writeRegisterAdress,
+	writeData,
+	reg_write_en,
+	readDataRegister1,
+	readDataRegister2
+	);
+
+	input [4:0] readRegister1Adress, readRegister2Adress, writeRegisterAdress;
+	input [63:0] writeData;
+	input reg_write_en;
+	output [63:0] readDataRegister1, readDataRegister2;
+
+	reg[63:0] register_depth[0:31];
+	
+	// todos os 32 registradores são inicializados com o valor 0
+	initial
+		begin
+			register_depth[0] = 64'b0;
+			register_depth[1] = 64'b0;
+			register_depth[2] = 64'b0;
+			register_depth[3] = 64'b0;
+			register_depth[4] = 64'b0;
+			register_depth[5] = 64'b0;
+			register_depth[6] = 64'b0;
+			register_depth[7] = 64'b0;
+			register_depth[8] = 64'b0;
+			register_depth[9] = 64'b0;
+			register_depth[10] = 64'b0;
+			register_depth[11] = 64'b0;
+			register_depth[12] = 64'b0;
+			register_depth[13] = 64'b0;
+			register_depth[14] = 64'b0;
+			register_depth[15] = 64'b0;
+			register_depth[16] = 64'b0;
+			register_depth[17] = 64'b0;
+			register_depth[18] = 64'b0;
+			register_depth[19] = 64'b0;
+			register_depth[20] = 64'b0;
+			register_depth[21] = 64'b0;
+			register_depth[22] = 64'b0;
+			register_depth[23] = 64'b0;
+			register_depth[24] = 64'b0;
+			register_depth[25] = 64'b0;
+			register_depth[26] = 64'b0;
+			register_depth[27] = 64'b0;
+			register_depth[28] = 64'b0;
+			register_depth[29] = 64'b0;
+			register_depth[30] = 64'b0;
+			register_depth[31] = 64'b0;
+	end
+
+	
+	//O valores do readRegister1Adress e do readRegister1Adress é atribuido ao readDataRegister1 e ao readDataRegister2 
+	assign #1 readDataRegister1 = register_depth[readRegister1Adress];
+	assign #1 readDataRegister2 = register_depth[readRegister2Adress];
+
+	always @(*) 
+	begin
+		if (reg_write_en) // checa se irá escrever dados
+			if (writeRegisterAdress != 5'd31)
+				register_depth[writeRegisterAdress] <= writeData;
+			else
+				register_depth[31] <= 1'b0;
+	end
+
+endmodule 

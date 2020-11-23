@@ -1,0 +1,482 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech_6.5\examples
+T_opt
+V6XP=>llZnUD7B]VC[?6c23
+04 14 4 work Sign_Extend_tb fast 0
+=1-1c39470d2a2f-5c03235e-2c8-3e90
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;6.5;42
+vALU
+IY`m2Ba67jiCXGGbc96nAF0
+VGA@g<=fAB12@6M8R1ln^i2
+Z1 dC:\Users\USER\Desktop\TrabalhoFinalEmbarcados\Processador
+w1543694069
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALU.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALU.v
+L0 1
+Z2 OE;L;6.5;42
+r1
+31
+Z3 !s102 -nocovercells
+Z4 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+n@a@l@u
+!s100 EfUJ0Ha_6_ZkW3?e[:>V[2
+!s85 0
+vALU_CARRY
+IOa4a_Kh]j>:zN01K:iYJV3
+VLl2VdbOC`cI_OV7CARcN63
+R1
+w1543417414
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALU_CARRY.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALU_CARRY.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@a@l@u_@c@a@r@r@y
+!s100 czjI0MaY]QRj_6UjGc=oZ0
+!s85 0
+vALUControl
+I81JC^:?08P2Z?F39^ZRVD3
+V:fS]zFAl0eb4fbIIzM_:i2
+R1
+w1543774939
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALUControl.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALUControl.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@a@l@u@control
+!s100 kZP>1i>oWA]>5]nH>ELcm3
+!s85 0
+vControl
+IF=^1X9ncZ?bEDDP88o>i_2
+Vnc8IJ2H;aP6k4G;?TQfV<1
+R1
+w1543775299
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Control.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Control.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@control
+!s100 N_hBfh;?`<n[;93fVn]@D3
+!s85 0
+vControl_tb
+Ik<GnFzIlcARNBi`UGAW;>1
+V^QzPN7X9QGEgUoJLCZ`kl1
+R1
+Z5 w1543422492
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Control_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Control_tb.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@control_tb
+!s100 nA7M1oIoY9B:Qg3I8anaW3
+!s85 0
+vDatapath
+V@8I37f:50;HgH91fKe1CY2
+r1
+31
+IBKT^zI7BFA<UX_RK`L@9d3
+R1
+w1543891043
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Datapath.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Datapath.v
+L0 1
+R2
+R3
+R4
+n@datapath
+!s85 0
+!s100 H[;PWKIHWno@hf5mE1d1A3
+vDatapath_tb
+I[QaagMR:>o65?<];:fVCZ2
+V7K75VAIZIQB5:Nl6mDQPS1
+R1
+w1543890981
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Datapath_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Datapath_tb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@datapath_tb
+!s100 Z[YO^7UjezcN7X:9?VTXK1
+!s85 0
+vdecoder
+Ihf1Y39:=?aYWi46_P_U^=0
+Ve:O@@5[3`aMmJHk4hT`8[0
+R1
+w1543887209
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/decoder.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/decoder.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 @]_G^F:M5iBMI3El3c=@X2
+!s85 0
+vdecoder_tb
+V=ka5g8LfkPkNOiWKG@ETE2
+r1
+31
+IzZco>o0U?h?c<GHinMV720
+R1
+w1543801332
+Z6 8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/decoder_tb.v
+Z7 FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/decoder_tb.v
+L0 1
+R2
+R3
+R4
+!s85 0
+!s100 JHj7JjEm`EN^@Ab06@S6l0
+vinstruction_memory
+IZ?;E?GFmXQLg=H]FGhZ`E1
+V:5^Q[dh<Dk;;@kEDU?iUK1
+R1
+w1543881820
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/instruction_memory.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/instruction_memory.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 H@jFDbHRKn<@`eGU>T8WE1
+!s85 0
+vinstruction_memory_tb
+I3Tc[MDJY=kn@VMA=lDSK`0
+VL`_<I?MdO^Ah<Xf8i?GT:2
+R1
+w1543881517
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/instruction_memory_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/instruction_memory_tb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 j9GFb^V4PzJz4Glc0L8Hf3
+!s85 0
+vmux_ALUSrc
+Imdlej0<A_O6z]mH`?Yc]60
+Vkfh3>0bBJb3DZhX97BACM0
+R1
+w1543422494
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_ALUSrc.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_ALUSrc.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmux_@a@l@u@src
+!s100 @c3TSEkLf^eWSk3_mEf_J1
+!s85 0
+vmux_ALUSrc_tb
+IAg80;4h`O]Fk]E?c^WMBS3
+V:`FJUdHY`QB90Y5Q:SW6R0
+R1
+R5
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_ALUSrc_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_ALUSrc_tb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmux_@a@l@u@src_tb
+!s100 <12NOflUhUl3^H<<nN;Pj0
+!s85 0
+vmux_Branch
+IN9h^ecSmFc=TCB0bU:eZY2
+VPoQI66D_P1mEW=GS5aSB72
+R1
+R5
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_Branch.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_Branch.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmux_@branch
+!s100 7>NBlOMkIES2JBeN=HPJ<0
+!s85 0
+vmux_Branch_tb
+InBd_JSgROM0F;m[?afEc11
+VlaV8o5ahoIkS[mYP7_f2T0
+R1
+Z8 w1543422490
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_Branch_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_Branch_tb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmux_@branch_tb
+!s100 b7GoMM;L?efl>STU^nbK?2
+!s85 0
+vmux_MemtoReg
+IgZ<LJNQJXokLe6Ie_2Y283
+Vh3[KGh;?OSQl>NcDM:GdU2
+R1
+R8
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_MemtoReg.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_MemtoReg.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmux_@memto@reg
+!s100 LfJo?:1Z_E4k2B9]Ii>i23
+!s85 0
+vmux_MemtoReg_tb
+IEiom]^R:8hze62RM<3MfQ0
+Vd><h8<P<z72?zU727O<oN3
+R1
+R5
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_MemtoReg_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_MemtoReg_tb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmux_@memto@reg_tb
+!s100 >PT_IS5F=;=XXUORiSRb:2
+!s85 0
+vmux_reg2loc
+I>OW50<kgjBc_nM8O[eU2C0
+VkMI1>AcA8:adz03J8eA8d1
+R1
+R5
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_reg2loc.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_reg2loc.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 XhS[Snc:fM5?7eZbMLVnC3
+!s85 0
+vmux_reg2loc_tb
+I0b:nUAYnEZ7hNEUl;nDVF0
+VzdKGaZX9eLl:F@n[nD@aX1
+R1
+R5
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_reg2loc_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_reg2loc_tb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 3^?JYLDTM9jdPPR]QVazN0
+!s85 0
+vPC_ALU
+I=oDGXiefYUK>oJNkn2ozd3
+V?<;IHDGUMMH;d?GP[V6P21
+R1
+w1543651019
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/PC_ALU.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/PC_ALU.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@p@c_@a@l@u
+!s100 YSg1dT7oLFNofz`LSM7T22
+!s85 0
+vPCShiftAdder
+Ioh2i;1W1mk4<`X;aIYbV>1
+VBQnobe`gKmQO[gXIn[AkY2
+R1
+w1543651825
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Branch_ALU.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Branch_ALU.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@p@c@shift@adder
+!s100 a=o=miXkXFb1zU3?43MWX0
+!s85 0
+vregister_file
+Id7SA[aajWeTPVbGC1hOX31
+VjgBPBP0[o6[9fbaBgUfQ`1
+R1
+w1543872491
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/register_file(1).v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/register_file(1).v
+L0 3
+R2
+r1
+31
+R3
+R4
+!s100 3:8j[6zBX=ED?X@o:NlJk1
+!s85 0
+vShift_Left2
+I2A9=H<68MCCJVY[EW@BGB0
+ViVf<^4Ue8YPk@>S1V=2E:0
+R1
+Z9 w1543438478
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/shift_Left2.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/shift_Left2.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@shift_@left2
+!s100 Mf[7A;Tgho0XzjdNo_0XO1
+!s85 0
+vSign_Extend
+!s100 eQMQJKc@aBNRmW0>TjkN<3
+I^j8Jb2i3[<CD34SMajSI@0
+Vh;CR4d<VJ=4lag9S2ofmc2
+R1
+w1543643414
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Sign_Extend.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Sign_Extend.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+R4
+n@sign_@extend
+vSign_Extend_tb
+ISKLWOg:8zCW0n5S3XSeSg3
+Vb7aQ^YK^oH33NPncY`>P^2
+R1
+w1543711091
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Sign_Extend_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Sign_Extend_tb.v
+L0 3
+R2
+r1
+31
+R3
+R4
+n@sign_@extend_tb
+!s100 eFI3_j]f6_0`;S?K<cRh_1
+!s85 0
+vtb
+I:AGTTU@@>XhSWZjdJleaM0
+VV@Xn<HnSRM[I5c1?BH]3a3
+R1
+w1543872494
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/register_file_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/register_file_tb.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!s100 XUj[6@ee_5mVL2HfXESff3
+!s85 0
+vtb_ALUControl
+IjPe5f>]8EM8el@o6m21i11
+Vf_6FL4zOPc_j66@cAUfFb3
+R1
+w1543683446
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/tb_ALUControl.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/tb_ALUControl.v
+L0 23
+R2
+r1
+31
+R3
+R4
+ntb_@a@l@u@control
+!s100 HTR_mQ]4D2I8dU_AWoe233
+!s85 0
+vtestbench_CARRY_ALU
+I[aDWii4^`7X`g:3EPNoR^2
+VkAI0;Z]lleT6Y9]MHemob2
+R1
+w1543417416
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/testbench_CARRY_ALU.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/testbench_CARRY_ALU.v
+L0 1
+R2
+r1
+31
+R3
+R4
+ntestbench_@c@a@r@r@y_@a@l@u
+!s100 FGLFcYAULgJP5z:5ZSES;0
+!s85 0
+vtestbench_instruction_decoder
+Iz`VCQ0OVOhWNVlUViJ`6d1
+VIn4a4V5KdSoG7dPlgmcQn0
+R1
+w1543887370
+R6
+R7
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 0YIo@YnD^bD^Q9]eYc@ej0
+!s85 0
+vtestbench_shift_left
+IW1TeS4Y4MCP9<dUz75lnC0
+VnMR0UWVGnj0<63FDz;M:I1
+R1
+R9
+8C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/shift_left2_tb.v
+FC:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/shift_left2_tb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 R_]6bYR[XP62oNT>d0kBc1
+!s85 0

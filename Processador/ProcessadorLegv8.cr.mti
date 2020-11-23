@@ -1,0 +1,111 @@
+C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/decoder.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/decoder.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Branch_ALU.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Branch_ALU.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module PCShiftAdder
+
+Top level modules:
+	PCShiftAdder
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Datapath.v {0 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Datapath.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Datapath
+** Error: C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Datapath.v(46): near "endmodule": syntax error, unexpected "endmodule", expecting ';' or ','
+
+} {4.0 5.0} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Control.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Control.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALU.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALU.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/instruction_memory.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/instruction_memory.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_ALUSrc.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_ALUSrc.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module mux_ALUSrc
+
+Top level modules:
+	mux_ALUSrc
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/PC_ALU.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/PC_ALU.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module PC_ALU
+
+Top level modules:
+	PC_ALU
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Datapath_tb.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Datapath_tb.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Datapath_tb
+
+Top level modules:
+	Datapath_tb
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_reg2loc.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_reg2loc.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module mux_reg2loc
+
+Top level modules:
+	mux_reg2loc
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_Branch.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_Branch.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module mux_Branch
+
+Top level modules:
+	mux_Branch
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/tb_ALUControl.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/tb_ALUControl.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module tb_ALUControl
+
+Top level modules:
+	tb_ALUControl
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Sign_Extend.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/Sign_Extend.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_MemtoReg.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/mux_MemtoReg.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module mux_MemtoReg
+
+Top level modules:
+	mux_MemtoReg
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALUControl.v {1 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ALUControl.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module ALUControl
+
+Top level modules:
+	ALUControl
+
+} {} {}} C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ShiftLeft2.v {0 {vlog -work work -vopt -nocovercells C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ShiftLeft2.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Shift_Left2
+** Error: (vlog-7) Failed to open library file "C:\Users\USER\Desktop\TrabalhoFinalEmbarcados\Processador\work/@shift_@left2" in read/write/execute mode.
+No such file or directory. (errno = ENOENT)
+** Error: C:/Users/USER/Desktop/TrabalhoFinalEmbarcados/Processador/ShiftLeft2.v(10): Verilog Compiler exiting
+
+} {4.0 5.0 6.0 7.0} {}}
